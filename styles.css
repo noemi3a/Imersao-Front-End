@@ -1,0 +1,126 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    background-color: #000000;
+    padding: 12px;
+}
+
+
+.sidebar__content {
+    background-color:#121212;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 100%; /* Ajuste a altura conforme necessário */
+    overflow-y: auto; /* Adicione rolagem vertical se necessário */
+}
+
+.sidebar nav ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0px 20px 10px 20px;
+}
+
+.sidebar nav ul li {
+    padding: 10px 0px;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sidebar nav ul li .fa {
+    font-size: 60px;
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+.sidebar nav ul li a:hover {
+    color: #ffffff;
+}
+.sidebar .logo{
+    color: #b3b3b3;
+    
+}
+.sidebar .logo img {
+    width: 200px; 
+    margin-left: 15px;
+    justify-content: space-between;
+
+}
+
+.sidebar__library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.sidebar__library__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+
+}
+.sidebar__library__button {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: opx;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans",sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+.sidebar .sidebar__library .sidebar__library__button{
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: 300;
+  padding-right: 8px;  
+}
+
+.sidebar__library__content .fa-plus{
+    margin: 40px 10px;
+}
+
+    .section-playlist{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: #242424;
+        color: #b3b3b3;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 8px 0px;
+        padding: 16px 20px;
+}
+.section-playlist__content {
+    display: flex;
+    flex-direction: column;
+
+}
+.section-playlist__content .title {
+    font-weight: 700;
+}
+.section-playlist__content .text {
+    padding-bottom: 14px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    font-size: 12px;
+}
